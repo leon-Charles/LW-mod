@@ -1,0 +1,150 @@
+ideas = {
+
+	country = {
+
+#		CYP_3end1 = {
+#			allowed = {	always = no	original_tag = CYP}
+#			removal_cost = -1
+#			picture = generic_production_bonus
+#			modifier = {
+#				conscription = 0.02
+#				army_defence_factor = -0.05
+#				army_attack_factor = -0.05
+#				stability_factor = -0.01
+#			}
+#
+#		}
+
+#		CYP_3end2 = {
+#			allowed = {	always = no	original_tag = CYP}
+#			removal_cost = -1
+#			picture = generic_production_bonus
+#			modifier = {
+#				conscription = 0.05
+#				army_defence_factor = -0.1
+#				army_attack_factor = -0.1
+#				production_factory_max_efficiency_factor = -0.05
+#				stability_factor = -0.05
+#			}
+#
+#		}
+
+#		CYP_3end3 = {
+#			allowed = {	always = no	original_tag = CYP}
+#			removal_cost = -1
+#			picture = generic_production_bonus
+#			modifier = {
+#				conscription = 0.10
+#				army_defence_factor = -0.175
+#				army_attack_factor = -0.175
+#				production_factory_max_efficiency_factor = -0.125
+#				production_speed_buildings_factor = -0.10
+#				stability_factor = -0.1
+#			}
+#
+#		}
+
+#		CYP_3end4 = {
+#			allowed = {	always = no	original_tag = CYP}
+#			removal_cost = -1
+#			picture = generic_production_bonus
+#			modifier = {
+#				conscription = 0.15
+#				army_defence_factor = -0.25
+#				army_attack_factor = -0.25
+#				production_factory_max_efficiency_factor = -0.2
+#				production_speed_buildings_factor = -0.175
+#				local_resources_factor = -0.05
+#				stability_factor = -0.15
+#			 }
+#
+#		}
+
+#		CYP_3end5 = {
+#			allowed = {	always = no	original_tag = CYP}
+#			removal_cost = -1
+#			picture = generic_production_bonus
+#			modifier = {
+#				conscription = 0.20
+#				army_defence_factor = -0.275
+#				army_attack_factor = -0.275
+#				production_factory_max_efficiency_factor = -0.25
+#				production_speed_buildings_factor = -0.2
+#				local_resources_factor = -0.1
+#				industry_air_damage_factor = 0.2
+#				stability_factor = -0.2
+#			 }
+#
+#		}
+
+#		CYP_3end6 = {
+#			allowed = {	always = no	original_tag = CYP}
+#			removal_cost = -1
+#			picture = generic_production_bonus
+#			modifier = {
+#				conscription = 0.25
+#				army_defence_factor = -0.33
+#				army_attack_factor = -0.33
+#				production_factory_max_efficiency_factor = -0.3
+#				production_speed_buildings_factor = -0.25
+#				local_resources_factor = -0.2
+#				industry_air_damage_factor = 0.3
+#				stability_factor = -0.3
+#				 political_power_factor = -0.25
+#
+#			 }
+#
+#		}
+
+
+	air_chief = {
+			CYP_3airc = {
+			picture = generic_air_asia_2
+			allowed = {tag = CYP}
+			traits = {air_chief_night_operations_3}
+		}
+	}
+
+	army_chief = {
+			CYP_3armyc = {
+			picture = generic_army_asia_1
+			allowed = {tag = CYP}
+			traits = {army_chief_organizational_2}
+		}
+	}
+
+	navy_chief = {
+			CYP_3navyc = {
+			picture = generic_navy_asia_2
+			allowed = {tag = CYP}
+			modifier = {naval_strike_targetting_factor = 0.08}
+			traits = {navy_chief_reform_3}
+		}
+	}
+	high_command = {
+		CYP_3Jon_Arty = {
+
+
+			allowed = {tag = CYP}
+			modifier = {army_artillery_attack_factor = 0.15}
+			traits = {army_regrouping_3}
+			picture = generic_army_asia_2
+		}
+		CYP_3Fyu_Com = {
+
+			picture = generic_army_asia_3
+			allowed = {tag = CYP}
+			modifier = {army_infantry_defence_factor = 0.2}
+			traits = {army_artillery_3}
+		}
+		CYP_3Ire_air = {
+
+
+			allowed = {tag = CYP}
+			modifier = {air_accidents_factor = -0.1}
+			traits = {air_bomber_interception_3}
+			picture = generic_air_asia_1
+		}
+	}
+
+	}
